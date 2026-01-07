@@ -1,0 +1,99 @@
+# SafeRoads - Git Ignore File
+
+# API Keys and Secrets (IMPORTANT!)
+config.js
+.env
+.env.local
+.env.production
+secrets.json
+
+# Node modules (if you add npm later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Documentation builds
+docs/_build/
+
+# Python (if using Python server)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Database files (if added later)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Local development
+.local/
+local-config.js
+
+# Deployment files
+.vercel/
+.netlify/
+
+# User uploaded files (if implementing file storage)
+uploads/
+temp-uploads/
+
+# Analytics and tracking
+.analytics/
+
+# Keep these files
+!.gitignore
+!README.md
+!LICENSE
